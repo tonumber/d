@@ -1327,7 +1327,7 @@ function Library:CreateWindow(title, color)
                 info.Position = UDim2.new(0.119433202, 0, 0.111111142, 0)
                 info.Size = UDim2.new(0, 435, 0, 18)
                 info.Font = Enum.Font.SourceSans
-                info.Text = "Username: " .. Name .. " | UserId: " .. UserId .. " | MembeShipType: " .. MemberShipType
+                info.Text = "Username: " .. Name .. " | UserId: " .. UserId .. "
                 info.TextColor3 = TeamColor
                 info.TextSize = 15.000
                 info.TextStrokeTransparency = 0.000
@@ -1442,7 +1442,7 @@ function Library:CreateWindow(title, color)
                     title_5.BorderSizePixel = 0
                     title_5.Size = UDim2.new(1, 0, 1, 0)
                     title_5.Font = Enum.Font.SourceSans
-                    title_5.Text = "ESP Them"
+                    title_5.Text = "View"
                     title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
                     title_5.TextSize = 14.000
                     title_5.TextStrokeTransparency = 0.000

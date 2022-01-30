@@ -1414,7 +1414,7 @@ function Library:CreateWindow(title, color)
                     title_4.BorderSizePixel = 0
                     title_4.Size = UDim2.new(1, 0, 1, 0)
                     title_4.Font = Enum.Font.SourceSans
-                    title_4.Text = "Prioritize"
+                    title_4.Text = "Teleport"
                     title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
                     title_4.TextSize = 14.000
                     title_4.TextStrokeTransparency = 0.000

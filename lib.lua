@@ -1448,19 +1448,19 @@ function Library:CreateWindow(title, color)
                     title_5.TextStrokeTransparency = 0.000
 
                     whitelist.MouseButton1Click:Connect(function()
-                        events.onwhitelist(UserId)
+                        events.onwhitelist(Name)
                     end)
 
                     blacklist.MouseButton1Click:Connect(function()
-                        events.onblacklist(UserId)
+                        events.onblacklist(Name)
                     end)
 
                     prioritize.MouseButton1Click:Connect(function()
-                        events.onprioritize(UserId)
+                        events.onprioritize(Name)
                     end)
 
                     unprioritize.MouseButton1Click:Connect(function()
-                        events.onunprioritize(UserId)
+                        events.onunprioritize(Name)
                     end)
                 end
 

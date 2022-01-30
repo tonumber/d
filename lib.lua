@@ -1327,7 +1327,7 @@ function Library:CreateWindow(title, color)
                 info.Position = UDim2.new(0.119433202, 0, 0.111111142, 0)
                 info.Size = UDim2.new(0, 435, 0, 18)
                 info.Font = Enum.Font.SourceSans
-                info.Text = "Username: " .. Name .. " | UserId: " .. UserId .. "
+                info.Text = "Username: " .. Name .. " | UserId: " .. UserId 
                 info.TextColor3 = TeamColor
                 info.TextSize = 15.000
                 info.TextStrokeTransparency = 0.000
